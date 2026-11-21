@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+coverage/
+.turbo/
+.vercel/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Tooling
+*.tsbuildinfo
